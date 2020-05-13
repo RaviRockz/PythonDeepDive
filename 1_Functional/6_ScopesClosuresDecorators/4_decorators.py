@@ -38,7 +38,7 @@
         -> mult.__name__    -> inner not mult
         -> help(mult)       -> return help(inner)
         -> to fix this      -> override the __name__ and __doc__ prop of inner  (or using functools.wrap)
-        -> inner = wraps(fn)(inner)  (or) decorate using @wrap to inner
+        -> inner = wraps(fn)(inner)  (or) decorate using @wrap(fn) to inner
 '''
 from functools import wraps
 
