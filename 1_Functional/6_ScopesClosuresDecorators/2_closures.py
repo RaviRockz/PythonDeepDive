@@ -5,7 +5,7 @@
     --> Free Variables and Closures
         -> func defined inside another func can access the outer(nonlocal) variables
         -> nonlocal variables is also called free variables
-        -> outer runs then inner is created is called closures
+        -> outer runs then inner is created -> closures
         -> returns inner, are actually returning closure and assign to a variable
     --> Python cells and Multi-Scoped variables
     

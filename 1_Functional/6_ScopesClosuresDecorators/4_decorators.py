@@ -1,6 +1,6 @@
 """"""
 
-'''Decorators'''
+'''Decorators Part 1'''
 '''
     --> Decorator function takes a function as an argument and returns a closure
     --> Closure usually accepts any combination of params, Runs some code in the inner function (closure)
@@ -96,32 +96,3 @@ def square(func):
         return f * f
 
     return multiply
-
-
-@square
-def addition(x, y):
-    return x + y
-
-
-print(addition(5, 7))
-print(addition(15, 10))
-
-
-def decorator(arg1, arg2):
-    def main_decorator(func):
-        def func_wrapper(*args, **kwargs):
-            f = func(*args, **kwargs)
-            return 'Hi {0}, {1} {2}'.format(f, arg1, arg2)
-
-        return func_wrapper
-
-    return main_decorator
-
-
-@decorator('hello', 'dear')
-def my_function(name):
-    return name
-
-
-print(my_function('Emma'))
-
