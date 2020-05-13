@@ -33,7 +33,7 @@
     --> Generators
     --> Classes
     --> Instance methods
-    --> Class Instances {__call()}
+    --> Class Instances {__call__()}
     --> Built-In Functions {len(), open()}
     --> Built-In Methods {list.append(x)}
 '''
