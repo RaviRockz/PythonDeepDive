@@ -42,7 +42,7 @@
         -> CapWords (Upper camel case)
     --> Functions
         -> lowercase, words separated by underscores
-    --> 2_Variables
+    --> Variables
         -> lowercase, words separated by underscores
     --> Constants
         -> all-upercase, words separated by underscores
